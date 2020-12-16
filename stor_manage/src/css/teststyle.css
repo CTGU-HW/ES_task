@@ -1,0 +1,158 @@
+/* 整个页面的样式 */
+
+body {
+    font-size: 12px;
+    font-family: Arial;
+}
+
+.buleColor {
+    color: #4159c4 !important;
+}
+
+/* 导航样式 */
+nav.top {
+    background-color: #f2f2f2;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+
+nav.top div.centerShow {
+    max-width: 1013px;
+    margin: 0px auto;
+}
+
+a {
+    color: #999999;
+}
+
+nav.top a,
+nav.top span {
+    color: #999;
+    margin: 0px 10px 0px 10px;
+}
+
+nav.top a:hover {
+    text-decoration: none;
+    color: #c40000;
+}
+
+div.searchDiv {
+    margin: 50px auto;
+    width: 400px;
+    height: 40px;
+    background-color: #325ac8;
+    padding: 1px;
+    display: block;
+}
+
+div.searchDiv input {
+    width: 275px;
+    height: 36px;
+    border: 1px solid transparent;
+    margin: 1px 0px 1px 0px;
+}
+
+div.searchDiv button {
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #325ac8;
+    color: white;
+    border: 1px solid transparent;
+    width: 110px;
+}
+
+div.searchBelow {
+    margin-top: 3px;
+    margin-left: -10px;
+}
+
+div.searchBelow span {
+    color: #999;
+}
+
+div.searchBelow a {
+    padding: 0px 10px 0px 10px;
+    font-size: 14px;
+}
+
+div.homepageProductsDiv {
+    max-width: 1013px;
+    margin: 10px auto;
+    background-color: #f5f5f5;
+    padding: 50px 10px 50px 10px;
+}
+
+div.eachProductItem {
+    width: 190px;
+    height: 265px;
+    background-color: white;
+    border: white 1px solid;
+    margin: 8px 4px;
+    float: left;
+    cursor: pointer;
+}
+
+div.eachProductItem:hover {
+    opacity: 0.7;
+    border: red 1px solid;
+}
+
+div.eachProductItem img {
+    width: 187px;
+    height: 190px;
+}
+
+div.eachProductItem span.productItemDesc {
+    font-size: 14px;
+    color: #666666;
+    padding: 16px;
+    display: block;
+}
+
+div.eachProductItem span.productPrice {
+    color: rgb(197, 10, 10);
+    margin-top: -10px;
+    padding-left: 16px;
+    font-size: 12px;
+    display: block;
+}
+
+div.categoryTitle {
+    font-size: 16px;
+    font-weight: bold;
+    color: #646464;
+    margin-left: 30px;
+}
+
+img.endpng {
+    display: block;
+    margin: 0px auto;
+}
+
+img.foot {
+    display: block;
+    margin: 0px auto;
+}
+
+div.carousel-of-product {
+    max-width: 100%;
+    height: 400px;
+}
+
+img.carouselImage {
+    height: 400px !important;
+}
+
+div.carouselBackgroundDiv {
+    background-color: #e8e8e8;
+}
+
+div.item img{
+    width:45%;
+    margin: 0px auto;
+}
+div#carousel-example-generic{
+    width:80%;
+    margin:0 auto;
+}
