@@ -92,7 +92,6 @@
         created(){
             const _this = this
             axios.get('http://localhost:8089/admins/selectAll').then(function(resp){
-                alert(resp.data)
                 _this.tableDate = resp.data
                 _this.arr = resp.data.content
                 for (let i = 0; i < _this.tableDate.length; i++) {
